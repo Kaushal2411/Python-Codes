@@ -1,0 +1,10 @@
+x=input("enter the no. you want to check is armstrong or not")
+y=0
+for i in x:
+    z=int(i)
+    z=z**len(x)
+    y=y+z
+if y==int(x):
+    print("it is an armstrong no.")
+else:
+    print("it is not an armstrong no.")
