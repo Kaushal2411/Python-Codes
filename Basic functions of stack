@@ -1,0 +1,29 @@
+def push():
+    x=int(input("How many name do you want to enter"))
+    for i in range(0,x):
+        y=input("enter name")
+        S1.append(y)
+    return(S1)
+def Pop():
+    if len(S1)<1:
+        print("The Stack is empty")
+    else:
+        z=S1.pop()
+        print(z)
+        print(S1)
+print("1. Push an item in the Stack")
+print("2. Pop item from the Starck")
+print("3. Exit")
+S1=[]
+while True:
+    a=int(input("enter your choice"))
+    if a==1:
+        b=push()
+        print(b)
+    elif a==2:
+        Pop()
+    elif a==3:
+        print("Exited successfully")
+        break
+    else:
+        print("Invalid choice")
