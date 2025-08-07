@@ -1,5 +1,5 @@
 x=int(input("Enter no.")) 
 if x%2==0:
-    print(prime no.) 
+    print("This is an even number") 
 else:
-    print(not a prime no.)
+    print("This is an odd number")
